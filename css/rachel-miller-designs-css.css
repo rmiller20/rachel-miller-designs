@@ -1,0 +1,149 @@
+/***NOTES***/
+/** h1 font: Sanchez color 48 #7f4959
+/** h2 font: Sanchez size 40 color #7f4959
+/** h3 font: Ralewaysize color #cca0ac
+
+/**** BASE STYLES ****/
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+#About, #Work, #Contact {
+  height: 500px;
+}
+
+/**** GRID ****/
+.full-width {
+  width: 1200px;
+  margin:0 auto;
+}
+.half-width {
+  width: 600px;
+  margin: 0 auto;
+  float: left;
+}
+.third-width {
+  width: 300px;
+  margin: 0 auto;
+  float: left;
+}
+
+/**** HEADER ****/
+header{
+  height:200px;
+  background-color: #cca0ac;
+  background-size: 1400px 150px;
+  margin-top: 65px;
+}
+header h1 {
+  padding:51px 0;
+  font-family: 'Sanchez', sans-serif;
+  font-size: 48px;
+  color: #7f4959;
+}
+nav {
+  float:right;
+  padding: 90px 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  font-size: 32px;
+  text-decoration: none;
+  color: #7f4959;
+  padding-left: 30px;
+}
+
+/**** ABOUT ****/
+#About .full-width {
+  padding: 74px 0
+}
+#About h2 {
+  font-family: 'raleway', sans-serif;
+  font-size: 40px;
+  color: #7f4959;
+  padding-top: 74px;
+}
+#About p {
+  font-family: 'raleway', sans-serif;
+  font-size: 30px;
+  line-height: 48px;
+  color: #cca0ac;
+}
+#About img {
+  height: 480px;
+  width: 480px;
+  padding-left: 125px;
+  align-items: center;
+}
+
+/****WORK****/
+#Work .full-width {
+  padding: 74px;
+}
+#Work .third-width {
+  padding-top: 100px;
+  padding-right: 100px;
+}
+#Work img {
+  height:300px;
+  width: 300px;
+}
+#Work h3 {
+  font-family: 'Sanchez', sans-serif;
+  font-size: 40px;
+  color: #7f4959;
+  padding-top: 20px;
+  text-align: center;
+}
+#Work p {
+  font-family: 'raleway', sans-serif;
+  font-size: 30px;
+  color: #cca0ac;
+  text-align: center;
+}
+
+
+/****CONTACT****/
+#Contact .full-width {
+  padding: 74px;
+  padding-bottom: 100px
+}
+#Contact #contact-logo {
+  height: 450px;
+  width: 450px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+}
+#Contact ul img {
+  height: 60px;
+  width: 60px;
+  padding-right:48px;
+}
+#Contact ul li {
+  display: inline;
+  }
+#Contact h2 {
+  font-family: 'Sanchez', sans-serif;
+  font-size: 40px;
+  line-height: 30px;
+  padding-top: 130px;
+  padding-left: 48px;
+  color: #7f4959;
+}
+#Contact h3 {
+  font-family: 'Sanchez', sans-serif;
+  font-size: 36px;
+  line-height: 30px;
+  padding-left: 48px;
+  color: #7f4959;
+}
+#Contact h4 {
+  font-family: 'raleway', sans-serif;
+  font-size: 30px;
+  line-height: 32px;
+  padding-left: 48px;
+  color: #cca0ac;
+}
